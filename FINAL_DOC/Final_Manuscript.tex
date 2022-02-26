@@ -216,15 +216,19 @@ The appropriate number of PODS\textsuperscript{\textregistered}-rhBDNF crystals 
 	% (C) Concentration of BDNF released from PODS\textsuperscript{\textregistered} cultured with human embryonic stem cell-derived auditory neurons fit to Equation 2. Black dots: individual data point, blue line: fitted curve. Results on left hand side show approximation for $k1$ and the coefficient of determination ($R\textsuperscript{2}$).}
 \end{figure}
 
-\indent We then quantified the chemical kinetics of the degradation of PODS\textsuperscript{\textregistered}-rhBDNF followed by the release and eventual degradation of the rhBDNF by ELISA testing (Figure 4) to establish the parameters for the FEA. Degradation kinetics for rhBDNF was collected while monitoring rhBDNF concentration after introducing a predefined amount of rhBDNF into a single well of solution. The data obtained throughout the first 72 hours indicate an exponential decay, suggesting first order kinetics (Figure 4). To confirm this notion, we performed a linear and nonlinear least square analysis of the kinetic data with the MATLAB Curve Fitting Toolbox. We found that the corresponding $R^{2}$ was 0.93169 for the first order curve-fit, confirming that the degradation kinetics was indeed first order (See further detail in Supplementary Figure S7). Data for the entire reaction were collected while monitoring rhBDNF concentration over time after placing a predefined amount of PODS\textsuperscript{\textregistered}-rhBDNF into a single well of solution. Here, two consecutive chemical reactions occur: 1) the release of rhBDNF through degradation of PODS\textsuperscript{\textregistered} crystals, and 2) the degradation of rhBDNF toward the degradation product (Equation (1)). 
+\indent We then quantified the chemical kinetics of the degradation of PODS\textsuperscript{\textregistered}-rhBDNF followed by the release and eventual degradation of the rhBDNF by ELISA testing (Figure 4) to establish the parameters for the FEA. Here, two consecutive chemical reactions occur: 1) the release of rhBDNF through degradation of PODS\textsuperscript{\textregistered} crystals, and 2) the degradation of rhBDNF toward the degradation product (Equation (1)). 
 %%%%%%%%%%%%%%%
 % Equation 1
 %%%%%%%%%%%%%%%
 \begin{equation}
-PODS\overset{k1}{\longrightarrow}BDNF\overset{k2}{\longrightarrow}DP
+	PODS\overset{k1}{\longrightarrow}BDNF\overset{k2}{\longrightarrow}DP
 \end{equation}
 %%%%%%%%%%%%%%%
-where $DP$ is the degradation product of the released rhBDNF, and $k\textsubscript{1}$ and $k\textsubscript{2}$ are the rate constants ($\frac{1}{hour}$) for their respective reactions.  The changing concentration of rhBDNF (the intermediate product) can be expressed as follows:  
+where $DP$ is the degradation product of the released rhBDNF, and $k\textsubscript{1}$ and $k\textsubscript{2}$ are the rate constants ($\frac{1}{hour}$) for their respective reactions.
+
+
+Degradation kinetics for rhBDNF was collected while monitoring rhBDNF concentration after introducing a predefined amount into a single well of solution. The data obtained throughout the first 72 hours indicate an exponential decay, suggesting first order kinetics (Figure 4). To confirm this notion, we performed a linear and nonlinear least square analysis of the kinetic data with the MATLAB Curve Fitting Toolbox. We found that the corresponding $R^{2}$ was 0.93169 for the first order curve-fit, confirming that the degradation kinetics was indeed first order (See further detail in Supplementary Figure S7). Data for the complete chemical reaction were collected while monitoring rhBDNF concentration over time after placing a predefined amount of PODS\textsuperscript{\textregistered}-rhBDNF into a single well of solution. The rhBDNF concentration over time data collected for experiment appeared to fit the curve for Equation 2, which describes the concentration of the intermediate product of two consecutive first order reactions:  We successfully fit the data to this curve and empirically determined k1, allowed by our calculation of k2.
+
 %%%%%%%%%%%%%%%
 % Equation 2
 %%%%%%%%%%%%%%%

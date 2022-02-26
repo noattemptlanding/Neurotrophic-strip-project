@@ -1,0 +1,496 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Naples2020a}
+J.~G. Naples, M.~J. Ruckenstein, {Cochlear Implant.}, Otolaryngologic Clinics
+  of North America 53~(1) (2020) 87--102.
+\newblock \href {http://dx.doi.org/10.1016/j.otc.2019.09.004}
+  {\path{doi:10.1016/j.otc.2019.09.004}}.
+
+\bibitem{Wilson2008a}
+B.~S. Wilson, M.~F. Dorman, {Cochlear implants: A remarkable past and a
+  brilliant future}, Hearing Research 242~(1-2) (2008) 3--21.
+\newblock \href {http://arxiv.org/abs/NIHMS150003} {\path{arXiv:NIHMS150003}},
+  \href {http://dx.doi.org/10.1016/j.heares.2008.06.005}
+  {\path{doi:10.1016/j.heares.2008.06.005}}.
+
+\bibitem{Frick2017}
+C.~Frick, M.~M{\"{u}}ller, U.~Wank, A.~Tropitzsch, B.~Kramer, P.~Senn,
+  H.~Rask-Anderson, K.~H. Wiesm{\"{u}}ller, H.~L{\"{o}}wenheim,
+  {Biofunctionalized peptide-based hydrogels provide permissive scaffolds to
+  attract neurite outgrowth from spiral ganglion neurons}, Colloids and
+  Surfaces B: Biointerfaces 149 (2017) 105--114.
+\newblock \href {http://dx.doi.org/10.1016/j.colsurfb.2016.10.003}
+  {\path{doi:10.1016/j.colsurfb.2016.10.003}}.
+
+\bibitem{Hahnewald2016}
+S.~Hahnewald, A.~Tscherter, E.~Marconi, J.~Streit, H.~R. Widmer, C.~Garnham,
+  H.~Benav, M.~Mueller, H.~L{\"{o}}wenheim, M.~Roccio, P.~Senn, {Response
+  profiles of murine spiral ganglion neurons on multi-electrode arrays.},
+  Journal of neural engineering 13~(1) (2016) 16011.
+\newblock \href {http://dx.doi.org/10.1088/1741-2560/13/1/016011}
+  {\path{doi:10.1088/1741-2560/13/1/016011}}.
+
+\bibitem{Shepherd1993}
+R.~K. Shepherd, S.~Hatsushika, G.~M. Clark, {Electrical stimulation of the
+  auditory nerve: The effect of electrode position on neural excitation},
+  Hearing Research 66~(1) (1993) 108--120.
+\newblock \href {http://dx.doi.org/10.1016/0378-5955(93)90265-3}
+  {\path{doi:10.1016/0378-5955(93)90265-3}}.
+
+\bibitem{Tykocinski2000}
+M.~Tykocinski, L.~T. Cohen, B.~C. Pyman, T.~Roland, C.~Treaba, J.~Palamara,
+  M.~C. Dahm, R.~K. Shepherd, J.~Xu, R.~S. Cowan, N.~L. Cohen, G.~M. Clark,
+  {Comparison of electrode position in the human cochlea using various
+  perimodiolar electrode arrays.}, The American journal of otology 21~(2)
+  (2000) 205--211.
+\newblock \href {http://dx.doi.org/10.1016/S0196-0709(00)80010-1}
+  {\path{doi:10.1016/S0196-0709(00)80010-1}}.
+
+\bibitem{Roemer2016a}
+A.~Roemer, U.~K{\"{o}}hl, O.~Majdani, S.~Kl{\"{o}}{\ss}, C.~Falk, S.~Haumann,
+  T.~Lenarz, A.~Kral, A.~Warnecke, {Biohybrid cochlear implants in human
+  neurosensory restoration.}, Stem cell research and therapy 7~(1) (2016) 148.
+\newblock \href {http://dx.doi.org/10.1186/s13287-016-0408-y}
+  {\path{doi:10.1186/s13287-016-0408-y}}.
+
+\bibitem{Heuer2021}
+R.~A. Heuer, K.~T. Nella, H.~T. Chang, K.~S. Coots, A.~M. Oleksijew, C.~B.
+  Roque, L.~H. Silva, T.~L. McGuire, K.~Homma, A.~J. Matsuoka,
+  {Three-dimensional otic neuronal progenitor spheroids derived from human
+  embryonic stem cells}, Tissue Engineering - Part A 27~(3-4) (2021) 256--269.
+\newblock \href {http://dx.doi.org/10.1089/ten.tea.2020.0078}
+  {\path{doi:10.1089/ten.tea.2020.0078}}.
+
+\bibitem{Chang2020}
+H.-T. Chang, R.~A. Heuer, A.~M. Oleksijew, K.~S. Coots, C.~B. Roque, K.~T.
+  Nella, T.~L. McGuire, A.~J. Matsuoka, {An Engineered Three-Dimensional Stem
+  Cell Niche in the Inner Ear by Applying a Nanofibrillar Cellulose Hydrogel
+  with a Sustained-Release Neurotrophic Factor Delivery System}, Acta
+  Biomaterialia 108 (2020) 111--127.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/j.actbio.2020.03.007}
+  {\path{doi:https://doi.org/10.1016/j.actbio.2020.03.007}}.
+
+\bibitem{Taylor2006}
+L.~Taylor, L.~Jones, M.~H. Tuszynski, A.~Blesch, {Neurotrophin-3 gradients
+  established by lentiviral gene delivery promote short-distance axonal
+  bridging beyond cellular grafts in the injured spinal cord}, Journal of
+  Neuroscience 26~(38) (2006) 9713--9721.
+\newblock \href {http://dx.doi.org/10.1523/JNEUROSCI.0734-06.2006}
+  {\path{doi:10.1523/JNEUROSCI.0734-06.2006}}.
+
+\bibitem{Senn2017}
+P.~Senn, M.~Roccio, S.~Hahnewald, C.~Frick, M.~Kwiatkowska, M.~Ishikawa,
+  P.~Bako, H.~Li, F.~Edin, W.~Liu, H.~Rask-Andersen, I.~Pyykk{\"{o}}, J.~Zou,
+  M.~Mannerstr{\"{o}}m, H.~Keppner, A.~Homsy, E.~Laux, M.~Llera, J.~P.
+  Lellouche, S.~Ostrovsky, E.~Banin, A.~Gedanken, N.~Perkas, U.~Wank, K.~H.
+  Wiesm{\"{u}}ller, P.~Mistr{\'{i}}k, H.~Benav, C.~Garnham, C.~Jolly,
+  F.~Gander, P.~Ulrich, M.~M{\"{u}}ller, H.~L{\"{o}}wenheim,
+  {NANOCI-Nanotechnology Based Cochlear Implant with Gapless Interface to
+  Auditory Neurons}, Otology and Neurotology 38~(8) (2017) e224----e231.
+\newblock \href {http://dx.doi.org/10.1097/MAO.0000000000001439}
+  {\path{doi:10.1097/MAO.0000000000001439}}.
+
+\bibitem{Goodhill1998}
+G.~J. Goodhill, H.~Baier, {Axon Guidance: Stretching Gradients to the Limit},
+  Neural Computation 10~(3) (1998) 521--527.
+\newblock \href {http://dx.doi.org/10.1162/089976698300017638}
+  {\path{doi:10.1162/089976698300017638}}.
+
+\bibitem{Gillespie2003}
+L.~N. Gillespie, G.~M. Clark, P.~F. Bartlett, P.~L. Marzella, {BDNF-induced
+  survival of auditory neurons in vivo: Cessation of treatment leads to
+  accelerated loss of survival effects}, Journal of Neuroscience Research
+  71~(6) (2003) 785--790.
+\newblock \href {http://dx.doi.org/10.1002/jnr.10542}
+  {\path{doi:10.1002/jnr.10542}}.
+
+\bibitem{Pettingill2008}
+L.~N. Pettingill, R.~L. Minter, R.~K. Shepherd, {Schwann cells genetically
+  modified to express neurotrophins promote spiral ganglion neuron survival in
+  vitro}, Neuroscience 152~(3) (2008) 821--828.
+\newblock \href {http://dx.doi.org/10.1016/j.neuroscience.2007.11.057.Schwann}
+  {\path{doi:10.1016/j.neuroscience.2007.11.057.Schwann}}.
+
+\bibitem{Shepherd2009}
+R.~K. Shepherd, A.~Coco, S.~B. Epp, {Neurotrophins and electrical stimulation
+  for protection and repair of spiral ganglion neurons following sensorineural
+  hearing loss}, Hearing Research 242 (2009) 100--109.
+\newblock \href {http://dx.doi.org/10.1016/j.heares.2007.12.005.Neurotrophins}
+  {\path{doi:10.1016/j.heares.2007.12.005.Neurotrophins}}.
+
+\bibitem{Baseri2012}
+B.~Baseri, J.~J. Choi, T.~Deffieux, G.~Samiotaki, Y.~S. Tung, O.~Olumolade,
+  S.~A. Small, B.~Morrison, E.~E. Konofagou, {Activation of signaling pathways
+  following localized delivery of systemically administered neurotrophic
+  factors across the bloodbrain barrier using focused ultrasound and
+  microbubbles}, Physics in Medicine and Biology 57~(7).
+\newblock \href {http://dx.doi.org/10.1088/0031-9155/57/7/N65}
+  {\path{doi:10.1088/0031-9155/57/7/N65}}.
+
+\bibitem{Ikeda2001a}
+K.~Ikeda, S.~Nagaoka, S.~Winkler, K.~Kotani, H.~Yagi, K.~Nakanishi,
+  S.~Miyajima, J.~Kobayashi, H.~Mori, {Molecular Characterization of Bombyx
+  mori Cytoplasmic Polyhedrosis Virus Genome Segment 4}, Journal of Virology
+  75~(2) (2001) 988--995.
+\newblock \href {http://dx.doi.org/10.1128/jvi.75.2.988-995.2001}
+  {\path{doi:10.1128/jvi.75.2.988-995.2001}}.
+
+\bibitem{Suzuki1997}
+T.~Suzuki, T.~Kanaya, H.~Okazaki, K.~Ogawa, A.~Usami, H.~Watanabe,
+  K.~Kadono-Okuda, M.~Yamakawa, H.~Sato, H.~Mori, S.~Takahashi, K.~Oda,
+  {Efficient protein production using a Bombyx mori nuclear polyhedrosis virus
+  lacking the cysteine proteinase gene}, Journal of General Virology 78~(12)
+  (1997) 3073--3080.
+\newblock \href {http://dx.doi.org/10.1099/0022-1317-78-12-3073}
+  {\path{doi:10.1099/0022-1317-78-12-3073}}.
+
+\bibitem{Mori1993}
+H.~Mori, R.~Ito, H.~Nakazawa, M.~Sumida, F.~Matsubara, Y.~Minobe, {Expression
+  of Bombyx mori cytoplasmic polyhedrosis virus polyhedrin in insect cells by
+  using a baculovirus expression vector, and its assembly into polyhedra},
+  Journal of General Virology 74~(1) (1993) 99--102.
+\newblock \href {http://dx.doi.org/10.1099/0022-1317-74-1-99}
+  {\path{doi:10.1099/0022-1317-74-1-99}}.
+
+\bibitem{green2012}
+S.~H. Green, E.~Bailey, Q.~Wang, R.~L. Davis, {The Trk A, B, C's of
+  Neurotrophins in the Cochlea.}, Anatomical record (Hoboken, N.J. : 2007)
+  295~(11) (2012) 1877--1895.
+\newblock \href {http://dx.doi.org/10.1002/ar.22587}
+  {\path{doi:10.1002/ar.22587}}.
+
+\bibitem{Meyvantsson2008}
+I.~Meyvantsson, D.~J. Beebe, {Cell culture models in microfluidic systems},
+  Annual Review of Analytical Chemistry 1~(1) (2008) 423--449.
+\newblock \href {http://dx.doi.org/10.1146/annurev.anchem.1.031207.113042}
+  {\path{doi:10.1146/annurev.anchem.1.031207.113042}}.
+
+\bibitem{Guo2017}
+Z.-J. Guo, M.-H. Yu, X.-Y. Dong, W.-L. Wang, T.~Tian, X.-Y. Yu, X.-D. Tang,
+  {Protein composition analysis of polyhedra matrix of Bombyx mori
+  nucleopolyhedrovirus (BmNPV) showed powerful capacity of polyhedra to
+  encapsulate foreign proteins.}, Scientific reports 7~(1) (2017) 8768.
+\newblock \href {http://dx.doi.org/10.1038/s41598-017-08987-8}
+  {\path{doi:10.1038/s41598-017-08987-8}}.
+
+\bibitem{Matsuoka2017g}
+A.~J. Matsuoka, Z.~A. Sayed, N.~Stephanopoulos, E.~J. Berns, A.~R. Wadhwani,
+  Z.~D. Morrissey, D.~M. Chadly, S.~Kobayashi, A.~N. Edelbrock, T.~Mashimo,
+  C.~A. Miller, T.~L. McGuire, S.~I. Stupp, J.~A. Kessler, {Creating a stem
+  cell niche in the inner ear using self-assembling peptide amphiphiles.}, Plos
+  One 12~(12) (2017) e0190150.
+\newblock \href {http://dx.doi.org/10.1371/journal.pone.0190150}
+  {\path{doi:10.1371/journal.pone.0190150}}.
+
+\bibitem{Matsuoka2017}
+A.~J. Matsuoka, Z.~D. Morrissey, C.~Zhang, K.~Homma, A.~Belmadani, C.~A.
+  Miller, D.~M. Chadly, S.~Kobayashi, A.~N. Edelbrock, M.~Tanaka‐Matakatsu,
+  D.~S. Whitlon, L.~Lyass, T.~L. McGruire, S.~I. Stupp, J.~A. Kessler,
+  {Directed Differentiation of Human Embryonic Stem Cells Toward
+  Placode-Derived Spiral Ganglion-Like Sensory Neurons}, Stem Cells
+  Translational Medicine 6 (2017) 923--936.
+\newblock \href {http://dx.doi.org/10.1002/sctm.16-0032}
+  {\path{doi:10.1002/sctm.16-0032}}.
+
+\bibitem{Al-Ali2017a}
+H.~Al-Ali, S.~R. Beckerman, J.~L. Bixby, V.~P. Lemmon, {In vitro models of axon
+  regeneration}, Experimental Neurology 287~(Pt 3) (2017) 423--434.
+\newblock \href {http://dx.doi.org/10.1016/j.expneurol.2016.01.020}
+  {\path{doi:10.1016/j.expneurol.2016.01.020}}.
+
+\bibitem{Laemmli1970}
+U.~K. Laemmli, {Cleavage of structural proteins during the assembly of the head
+  of bacteriophage T4.}, Nature 227~(5259) (1970) 680--685.
+\newblock \href {http://dx.doi.org/10.1038/227680a0}
+  {\path{doi:10.1038/227680a0}}.
+
+\bibitem{Mandel2009}
+A.~L. Mandel, H.~Ozdener, V.~Utermohlen, {Identification of pro- and mature
+  brain-derived neurotrophic factor in human saliva.}, Archives of oral biology
+  54~(7) (2009) 689--695.
+\newblock \href {http://dx.doi.org/10.1016/j.archoralbio.2009.04.005}
+  {\path{doi:10.1016/j.archoralbio.2009.04.005}}.
+
+\bibitem{Schneider2012}
+C.~A. Schneider, W.~S. Rasband, K.~W. Eliceiri, {NIH Image to ImageJ: 25 years
+  of image analysis}, Nature Methods 9~(7) (2012) 671--675.
+\newblock \href {http://arxiv.org/abs/arXiv:1011.1669v3}
+  {\path{arXiv:arXiv:1011.1669v3}}, \href
+  {http://dx.doi.org/10.1038/nmeth.2089} {\path{doi:10.1038/nmeth.2089}}.
+
+\bibitem{Burry2011}
+R.~W. Burry, {Controls for immunocytochemistry: an update.}, The journal of
+  histochemistry and cytochemistry : official journal of the Histochemistry
+  Society 59~(1) (2011) 6--12.
+\newblock \href {http://dx.doi.org/10.1369/jhc.2010.956920}
+  {\path{doi:10.1369/jhc.2010.956920}}.
+
+\bibitem{Mazalan2020}
+M.~B. Mazalan, M.~A.~B. Ramlan, J.~H. Shin, T.~Ohashi, {Effiect of geometric
+  curvature on collective cell migration in tortuous microchannel devices},
+  Micromachines 11~(7) (2020) 1--17.
+\newblock \href {http://dx.doi.org/10.3390/MI11070659}
+  {\path{doi:10.3390/MI11070659}}.
+
+\bibitem{Xu2011}
+F.~Xu, T.~Beyazoglu, E.~Hefner, U.~A. Gurkan, U.~Demirci, {Automated and
+  adaptable quantification of cellular alignment from microscopic images for
+  tissue engineering applications}, Tissue Engineering - Part C: Methods 17~(6)
+  (2011) 641--649.
+\newblock \href {http://dx.doi.org/10.1089/ten.tec.2011.0038}
+  {\path{doi:10.1089/ten.tec.2011.0038}}.
+
+\bibitem{Batschelet1981}
+E.~Batschelet, {Circular Statistics in Biology (Mathmatics in Biology Series)},
+  1st Edition, Academic Press, New York, NY, 1981.
+
+\bibitem{Berens2009}
+P.~Berens, M.~J. Velasco, {CircStat for Matlab: Toolbox for circular statistics
+  with Matlab}, Max–Planck–Institut f ur biologische Kybernetik, Technical
+  Report No. 184 31~(10) (2009) 1--21.
+\newblock \href {http://dx.doi.org/doi:10.18637/jss.v031.i10}
+  {\path{doi:doi:10.18637/jss.v031.i10}}.
+
+\bibitem{Pool2008}
+M.~Pool, J.~Thiemann, A.~Bar-Or, A.~E. Fournier, {NeuriteTracer: A novel ImageJ
+  plugin for automated quantification of neurite outgrowth}, Journal of
+  Neuroscience Methods 168~(1) (2008) 134--139.
+\newblock \href {http://dx.doi.org/10.1016/j.jneumeth.2007.08.029}
+  {\path{doi:10.1016/j.jneumeth.2007.08.029}}.
+
+\bibitem{Meijering2004}
+E.~Meijering, M.~Jacob, J.-C.~F. Sarria, P.~Steiner, H.~Hirling, M.~Unser,
+  {Design and validation of a tool for neurite tracing and analysis in
+  fluorescence microscopy images.}, Cytometry. Part A : the journal of the
+  International Society for Analytical Cytology 58~(2) (2004) 167--176.
+\newblock \href {http://dx.doi.org/10.1002/cyto.a.20022}
+  {\path{doi:10.1002/cyto.a.20022}}.
+
+\bibitem{Anniko1995}
+M.~Anniko, W.~Arnold, T.~Stigbrand, A.~Strom, {The Human Spiral Ganglion}, ORL
+  57 (1995) 68--77.
+
+\bibitem{5725236}
+S.~van~der Walt, S.~C. Colbert, G.~Varoquaux, {The NumPy Array: A Structure for
+  Efficient Numerical Computation}, Computing in Science Engineering 13~(2)
+  (2011) 22--30.
+\newblock \href {http://dx.doi.org/10.1109/MCSE.2011.37}
+  {\path{doi:10.1109/MCSE.2011.37}}.
+
+\bibitem{hunter2007}
+J.~D. Hunter, {Matplotlib: A 2D Graphics Environment}, Computing in Science
+  Engineering 9~(3) (2007) 90--95.
+\newblock \href {http://dx.doi.org/10.1109/MCSE.2007.55}
+  {\path{doi:10.1109/MCSE.2007.55}}.
+
+\bibitem{Virtanen2020}
+P.~Virtanen, R.~Gommers, T.~E. Oliphant, M.~Haberland, T.~Reddy, D.~Cournapeau,
+  E.~Burovski, P.~Peterson, W.~Weckesser, J.~Bright, S.~J. van~der Walt,
+  M.~Brett, J.~Wilson, K.~J. Millman, N.~Mayorov, A.~R.~J. Nelson, E.~Jones,
+  R.~Kern, E.~Larson, C.~J. Carey, I.~Polat, Y.~Feng, E.~W. Moore,
+  J.~VanderPlas, D.~Laxalde, J.~Perktold, R.~Cimrman, I.~Henriksen, E.~A.
+  Quintero, C.~R. Harris, A.~M. Archibald, A.~H. Ribeiro, F.~Pedregosa, P.~van
+  Mulbregt, {SciPy 1.0: fundamental algorithms for scientific computing in
+  Python.}, Nature methods 17~(3) (2020) 261--272.
+\newblock \href {http://dx.doi.org/10.1038/s41592-019-0686-2}
+  {\path{doi:10.1038/s41592-019-0686-2}}.
+
+\bibitem{Berens2009a}
+P.~Berens, {CircStat : A MATLAB Toolbox for Circular Statistics }, Journal of
+  Statistical Software 31~(10).
+\newblock \href {http://dx.doi.org/10.18637/jss.v031.i10}
+  {\path{doi:10.18637/jss.v031.i10}}.
+
+\bibitem{Tuncel2005}
+M.~Tuncel, H.~S. S{\"{u}}r{\"{u}}c{\"{u}}, K.~M. Erbil, A.~Konan, {Formation of
+  the cochlear nerve in the modiolus of the guinea pig and human cochleae.},
+  Archives of medical research 36~(5) (2005) 436--40.
+\newblock \href {http://dx.doi.org/10.1016/j.arcmed.2005.02.003}
+  {\path{doi:10.1016/j.arcmed.2005.02.003}}.
+
+\bibitem{Kucuk1991a}
+B.~K{\"{u}}{\c{c}}{\"{u}}k, K.~Abe, T.~Ushiki, Y.~Inuyama, S.~Fukuda, {Kazuo
+  Ishikawa}, {Microstructures of the Bony Modiolus in the Human Cochlea : A
+  Scanning Electron Microscopic Study}, Journal of Electron Microsc 40~(40)
+  (1991) 193--197.
+
+\bibitem{levenspiel1999}
+O.~Levenspiel, {Chemical Reaction Engineering}, 3rd Edition, John Wiley and
+  Sons, Inc., New York, NY, 1999.
+
+\bibitem{Stroh2004}
+M.~Stroh, W.~R. Zipfel, R.~M. Williams, S.~C. Ma, W.~W. Webb, W.~M. Saltzman,
+  {Multiphoton microscopy guides neurotrophin modification with poly(ethylene
+  glycol) to enhance interstitial diffusion}, Nature Materials 3~(7) (2004)
+  489--494.
+\newblock \href {http://dx.doi.org/10.1038/nmat1159}
+  {\path{doi:10.1038/nmat1159}}.
+
+\bibitem{Axler2015}
+S.~Axler, {Linear Algebra Done Right}, 3rd Edition, Springer Publishing, New
+  York, NY, 2015.
+
+\bibitem{crank1979}
+J.~Crank, {The mathmatics of Diffusion}, 2nd Edition, Oxford University Press,
+  London, UK, 1979.
+
+\bibitem{Keefe2017}
+K.~M. Keefe, I.~S. Sheikh, G.~M. Smith, {Targeting Neurotrophins to Specific
+  Populations of Neurons: NGF, BDNF, and NT-3 and Their Relevance for Treatment
+  of Spinal Cord Injury.}, International journal of molecular sciences 18~(3).
+\newblock \href {http://dx.doi.org/10.3390/ijms18030548}
+  {\path{doi:10.3390/ijms18030548}}.
+
+\bibitem{Awad2015}
+B.~I. Awad, M.~A. Carmody, M.~P. Steinmetz, {Potential role of growth factors
+  in the management of spinal cord injury.}, World Neurosurgery 83~(1) (2015)
+  120--131.
+\newblock \href {http://dx.doi.org/10.1016/j.wneu.2013.01.042}
+  {\path{doi:10.1016/j.wneu.2013.01.042}}.
+
+\bibitem{Hollis2011}
+E.~R.~n. Hollis, M.~H. Tuszynski, {Neurotrophins: potential therapeutic tools
+  for the treatment of spinal cord injury.}, Neurotherapeutics : the journal of
+  the American Society for Experimental NeuroTherapeutics 8~(4) (2011)
+  694--703.
+\newblock \href {http://dx.doi.org/10.1007/s13311-011-0074-9}
+  {\path{doi:10.1007/s13311-011-0074-9}}.
+
+\bibitem{Nagahara2018}
+A.~H. Nagahara, B.~R. Wilson, I.~Ivasyk, I.~Kovacs, S.~Rawalji, J.~R. Bringas,
+  P.~J. Pivirotto, W.~S. Sebastian, L.~Samaranch, K.~S. Bankiewicz, M.~H.
+  Tuszynski, {MR-guided delivery of AAV2-BDNF into the entorhinal cortex of
+  non-human primates.}, Gene therapy 25~(2) (2018) 104--114.
+\newblock \href {http://dx.doi.org/10.1038/s41434-018-0010-2}
+  {\path{doi:10.1038/s41434-018-0010-2}}.
+
+\bibitem{Croll1999}
+S.~D. Croll, C.~Suri, D.~L. Compton, M.~V. Simmons, G.~D. Yancopoulos, R.~M.
+  Lindsay, S.~J. Wiegand, J.~S. Rudge, H.~E. Scharfman, {Brain-derived
+  neurotrophic factor transgenic mice exhibit passive avoidance deficits,
+  increased seizure severity and in vitro hyperexcitability in the hippocampus
+  and entorhinal cortex.}, Neuroscience 93~(4) (1999) 1491--1506.
+\newblock \href {http://dx.doi.org/10.1016/s0306-4522(99)00296-1}
+  {\path{doi:10.1016/s0306-4522(99)00296-1}}.
+
+\bibitem{dravid2020}
+A.~Dravid, S.~Parittotokkaporn, Z.~Aqrawe, S.~J. O'Carroll, D.~Svirskis,
+  {Determining Neurotrophin Gradients in Vitro to Direct Axonal Outgrowth
+  following Spinal Cord Injury}, ACS Chemical Neuroscience 11~(2) (2020)
+  121--132.
+\newblock \href {http://dx.doi.org/10.1021/acschemneuro.9b00565}
+  {\path{doi:10.1021/acschemneuro.9b00565}}.
+
+\bibitem{Yamagata2004}
+T.~Yamagata, J.~M. Miller, M.~Ulfendahl, N.~P. Olivius, R.~A. Altschuler,
+  I.~Pyykk{\"{o}}, G.~Bredberg, {Delayed neurotrophic treatment preserves nerve
+  survival and electrophysiological responsiveness in neomycin-deafened guinea
+  pigs.}, Journal of neuroscience research 78~(1) (2004) 75--86.
+\newblock \href {http://dx.doi.org/10.1002/jnr.20239}
+  {\path{doi:10.1002/jnr.20239}}.
+
+\bibitem{Zanin2014}
+M.~P. Zanin, M.~Hellstr??m, R.~K. Shepherd, A.~R. Harvey, L.~N. Gillespie,
+  {Development of a cell-based treatment for long-term neurotrophin expression
+  and spiral ganglion neuron survival}, Neuroscience 277 (2014) 690--699.
+\newblock \href {http://dx.doi.org/10.1016/j.neuroscience.2014.07.044}
+  {\path{doi:10.1016/j.neuroscience.2014.07.044}}.
+
+\bibitem{Seyyedi2014}
+M.~Seyyedi, L.~Viana, J.~J. Nadol, {Within-subject comparison of word
+  recognition and spiral ganglion cell count in bilateral cochlear implant
+  recipients}, Otol Neurotol 35~(8) (2014) 1446--1450.
+\newblock \href {http://dx.doi.org/10.1097/MAO.0000000000000443.Within-Subject}
+  {\path{doi:10.1097/MAO.0000000000000443.Within-Subject}}.
+
+\bibitem{Henriques2010}
+A.~Henriques, C.~Pitzer, A.~Schneider, {Neurotrophic growth factors for the
+  treatment of amyotrophic lateral sclerosis: where do we stand?}, Frontiers in
+  neuroscience 4 (2010) 32.
+\newblock \href {http://dx.doi.org/10.3389/fnins.2010.00032}
+  {\path{doi:10.3389/fnins.2010.00032}}.
+
+\bibitem{Poduslo1996}
+J.~F. Poduslo, G.~L. Curran, {Permeability at the blood-brain and blood-nerve
+  barriers of the neurotrophic factors: NGF, CNTF, NT-3, BDNF}, Molecular Brain
+  Research 36~(2) (1996) 280--286.
+\newblock \href {http://dx.doi.org/10.1016/0169-328X(95)00250-V}
+  {\path{doi:10.1016/0169-328X(95)00250-V}}.
+
+\bibitem{Sakane1997}
+T.~Sakane, W.~M. Pardridge, {Carboxyl-directed pegylation of brain-derived
+  neurotrophic factor markedly reduces systemic clearance with minimal loss of
+  biologic activity} (1997).
+\newblock \href {http://dx.doi.org/10.1023/A:1012117815460}
+  {\path{doi:10.1023/A:1012117815460}}.
+
+\bibitem{Soderquist2009}
+R.~G. Soderquist, E.~D. Milligan, E.~M. Sloane, J.~A. Harrison, K.~K. Douvas,
+  J.~M. Potter, T.~S. Hughes, R.~A. Chavez, K.~Johnson, L.~R. Watkins, M.~J.
+  Mahoney, {PEGylation of brain-derived neurotrophic factor for preserved
+  biological activity and enhanced spinal cord distribution.}, Journal of
+  biomedical materials research. Part A 91~(3) (2009) 719--729.
+\newblock \href {http://dx.doi.org/10.1002/jbm.a.32254}
+  {\path{doi:10.1002/jbm.a.32254}}.
+
+\bibitem{Sasi2017}
+M.~Sasi, B.~Vignoli, M.~Canossa, R.~Blum, {Neurobiology of local and
+  intercellular BDNF signaling}, Pflugers Archiv : European journal of
+  physiology 469~(5-6) (2017) 593--610.
+\newblock \href {http://dx.doi.org/10.1007/s00424-017-1964-4}
+  {\path{doi:10.1007/s00424-017-1964-4}}.
+
+\bibitem{Li2010}
+X.~Li, Y.~Su, S.~Liu, L.~Tan, X.~Mo, S.~Ramakrishna, {Encapsulation of proteins
+  in poly(l-lactide-co-caprolactone) fibers by emulsion electrospinning},
+  Colloids and Surfaces B: Biointerfaces 75~(2) (2010) 418--424.
+\newblock \href {http://dx.doi.org/10.1016/j.colsurfb.2009.09.014}
+  {\path{doi:10.1016/j.colsurfb.2009.09.014}}.
+
+\bibitem{Swan2009}
+E.~E.~L. Swan, M.~Peppi, Z.~Chen, K.~M. Green, J.~E. Evans, M.~J. McKenna,
+  M.~J. Mescher, S.~G. Kujawa, W.~F. Sewell, {Proteomics analysis of perilymph
+  and cerebrospinal fluid in mouse.}, The Laryngoscope 119~(5) (2009) 953--958.
+\newblock \href {http://dx.doi.org/10.1002/lary.20209}
+  {\path{doi:10.1002/lary.20209}}.
+
+\bibitem{Numakawa2010}
+T.~Numakawa, S.~Suzuki, E.~Kumamaru, N.~Adachi, M.~Richards, H.~Kunugi, {BDNF
+  function and intracellular signaling in neurons}, Histology and
+  Histopathology 25~(2) (2010) 237--258.
+\newblock \href {http://dx.doi.org/10.14670/HH-25.237}
+  {\path{doi:10.14670/HH-25.237}}.
+
+\bibitem{Gentile2016}
+C.~Gentile, {Engineering of Spheroids for Stem Cell Technology}, Current Stem
+  Cell Research {\&} Therapy 11 (2016) 652--665.
+\newblock \href {http://dx.doi.org/10.2174/1574888x10666151001114848}
+  {\path{doi:10.2174/1574888x10666151001114848}}.
+
+\bibitem{berg1983}
+H.~Berg, {Random Walks in Biology}, Princeton Universtiy Press, Prinston, NJ,
+  1983.
+
+\bibitem{li2017}
+H.~Li, F.~Edin, H.~Hayashi, O.~Gudjonsson, N.~Danckwardt-Lillies, H.~Engqvist,
+  H.~Rask-Andersen, W.~Xia, {Guided growth of auditory neurons: Bioactive
+  particles towards gapless neural electrode interface}, Biomaterials 122
+  (2017) 1--9.
+\newblock \href {http://dx.doi.org/10.1016/j.biomaterials.2016.12.020}
+  {\path{doi:10.1016/j.biomaterials.2016.12.020}}.
+
+\bibitem{Schulze2020}
+J.~Schulze, H.~Staecker, D.~Wedekind, T.~Lenarz, A.~Warnecke, {Expression
+  pattern of brain-derived neurotrophic factor and its associated receptors:
+  Implications for exogenous neurotrophin application.}, Hearing Research 413
+  (2020) 108098.
+\newblock \href {http://dx.doi.org/10.1016/j.heares.2020.108098}
+  {\path{doi:10.1016/j.heares.2020.108098}}.
+
+\end{thebibliography}
