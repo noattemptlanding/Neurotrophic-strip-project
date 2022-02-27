@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  26 FEB 2022 08:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  26 FEB 2022 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,9 +976,9 @@ l.225 \end{equation}
 the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.242 
-       [15]
-<Fig_5.jpg, id=326, 580.93034pt x 360.02505pt>
+l.265 \end{equation}
+                     [15]
+<Fig_5.jpg, id=327, 580.93034pt x 360.02505pt>
 File: Fig_5.jpg Graphic file (type jpg)
 <use Fig_5.jpg>
 Package pdftex.def Info: Fig_5.jpg  used on input line 291.
@@ -1025,23 +1025,11 @@ Overfull \hbox (24.88582pt too wide) in paragraph at lines 329--330
  [] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.340 
-       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.340 
-       [20 <./Fig_7.jpg>]
-<Fig_75.jpg, id=359, 362.3136pt x 609.477pt>
+<Fig_75.jpg, id=351, 362.3136pt x 609.477pt>
 File: Fig_75.jpg Graphic file (type jpg)
 <use Fig_75.jpg>
 Package pdftex.def Info: Fig_75.jpg  used on input line 347.
 (pdftex.def)             Requested size: 256.0748pt x 430.76013pt.
-
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 350.
 
@@ -1051,7 +1039,23 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 350.
 
 LaTeX Warning: Float too large for page by 88.01013pt on input line 351.
 
-<Fig_8.jpg, id=362, 378.9357pt x 350.5095pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.358 
+       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.358 
+       [20 <./Fig_7.jpg>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.358 
+       [21 <./Fig_75.jpg>]
+<Fig_8.jpg, id=367, 378.9357pt x 350.5095pt>
 File: Fig_8.jpg Graphic file (type jpg)
 <use Fig_8.jpg>
 Package pdftex.def Info: Fig_8.jpg  used on input line 364.
@@ -1066,13 +1070,8 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.374 
-       [21]pdfTeX warning (ext4): destination with the same identifier (name{pa
+       [22]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.374 
-       [22 <./Fig_75.jpg>]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.374 
@@ -1110,16 +1109,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.423 ... neurotrophin treatment in the inner ear}
-                                                   [26]pdfTeX warning (ext4): d
-estination with the same identifier (name{page.}) has been already used, duplic
-ate ignored
+l.425 
+       [26]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.423 ... neurotrophin treatment in the inner ear}
-                                                   [27 <./Fig_10.jpg>]pdfTeX wa
-rning (ext4): destination with the same identifier (name{page.}) has been alrea
-dy used, duplicate ignored
+l.425 
+       [27 <./Fig_10.jpg>]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.428 
@@ -1150,10 +1147,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.442 ...ion{A concept design: Neurotrophic strip}
-                                                   [31]pdfTeX warning (ext4): d
-estination with the same identifier (name{page.}) has been already used, duplic
-ate ignored
+l.444 
+       [31]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.449 
@@ -1161,7 +1157,7 @@ l.449
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.453 
+l.455 
        [33]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1171,17 +1167,17 @@ l.465
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 
+l.44 
       [35]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 
+l.98 
       [36]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.135 
+l.143 
        [37]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1191,7 +1187,7 @@ l.190
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.240 
+l.248 
        [39]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1201,7 +1197,7 @@ l.303
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.342 
+l.349 
        [41]
 Underfull \hbox (badness 1292) in paragraph at lines 391--397
 \OT1/cmr/m/n/10 sur-vival and elec-tro-phys-i-o-log-i-cal re-spon-sive-ness in 
@@ -1243,7 +1239,7 @@ Package rerunfilecheck Info: File `Final_Manuscript.out' has not changed.
 Here is how much of TeX's memory you used:
  21834 strings out of 478994
  396052 string characters out of 5858184
- 692095 words of memory out of 5000000
+ 690759 words of memory out of 5000000
  38770 multiletter control sequences out of 15000+600000
  412030 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1275,7 +1271,7 @@ ts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 onts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sfti0700.pfb>
-Output written on Final_Manuscript.pdf (47 pages, 23268305 bytes).
+Output written on Final_Manuscript.pdf (47 pages, 23268174 bytes).
 PDF statistics:
  732 PDF objects out of 1000 (max. 8388607)
  618 compressed objects within 7 object streams
