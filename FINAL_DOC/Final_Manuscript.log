@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  27 FEB 2022 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  2 MAR 2022 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,7 +853,7 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 ] [3] [1
 
 ]
-<Fig_1.jpg, id=178, 231.7458pt x 280.4076pt>
+<Fig_1.jpg, id=177, 231.7458pt x 280.4076pt>
 File: Fig_1.jpg Graphic file (type jpg)
 <use Fig_1.jpg>
 Package pdftex.def Info: Fig_1.jpg  used on input line 126.
@@ -895,7 +895,13 @@ File: Fig_2.jpg Graphic file (type jpg)
 <use Fig_2.jpg>
 Package pdftex.def Info: Fig_2.jpg  used on input line 152.
 (pdftex.def)             Requested size: 341.43306pt x 109.1718pt.
-<Fig_3.jpg, id=230, 227.6505pt x 318.2289pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158 
+       [5 <./Fig_2.jpg>]
+<Fig_3.jpg, id=237, 227.6505pt x 318.2289pt>
 File: Fig_3.jpg Graphic file (type jpg)
 <use Fig_3.jpg>
 Package pdftex.def Info: Fig_3.jpg  used on input line 164.
@@ -904,23 +910,24 @@ Package pdftex.def Info: Fig_3.jpg  used on input line 164.
 
 LaTeX Warning: Float too large for page by 40.7754pt on input line 167.
 
+
+Overfull \hbox (5.19287pt too wide) in paragraph at lines 174--175
+[]\OT1/cmr/m/n/10 In or-der to de-ter-mine the break-down and re-lease ki-net-i
+cs of PODS$[]$-rhBDNF,
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 
-       [5 <./Fig_2.jpg>]pdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.170 
-       [6 <./Fig_3.jpg>]pdfTeX warning (ext4): destination with the same identi
-fier (name{page.}) has been already used, duplicate ignored
+l.175 
+       [6]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.175 
-       [7]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.}) has been already used, duplicate ignored
+       [7 <./Fig_3.jpg>]pdfTeX warning (ext4): destination with the same identi
+fier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.181 
@@ -929,14 +936,8 @@ e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.184 
-       [9]
-Overfull \hbox (3.33298pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 poly-d-lysine (PDL) (#A3890401, Ther-moFisher Sci-en-tific, Wal
-tham, MA, USA)
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+       [9]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.187 
@@ -949,8 +950,8 @@ l.190
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 
-       [12]
+l.194 \subsection{Statistical analysis}
+                                        [12]
 <Fig_4.jpg, id=298, 241.8636pt x 99.4917pt>
 File: Fig_4.jpg Graphic file (type jpg)
 <use Fig_4.jpg>
@@ -977,56 +978,50 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.227 
-       [14 <./Fig_4.jpg>]pdfTeX warning (ext4): destination with the same ident
+       [14 <./Fig_4.jpg>]
+<Fig_6.jpg, id=315, 526.3665pt x 342.92114pt>
+File: Fig_6.jpg Graphic file (type jpg)
+<use Fig_6.jpg>
+Package pdftex.def Info: Fig_6.jpg  used on input line 245.
+(pdftex.def)             Requested size: 369.88582pt x 240.98502pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 245--246
+ [] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.255 
+       [15]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.255 
+       [16 <./Fig_6.jpg>]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.281 
-       [15]
-<Fig_5.jpg, id=329, 580.93034pt x 360.02505pt>
+l.308 
+       [17]
+<Fig_5.jpg, id=340, 580.93034pt x 360.02505pt>
 File: Fig_5.jpg Graphic file (type jpg)
 <use Fig_5.jpg>
-Package pdftex.def Info: Fig_5.jpg  used on input line 289.
+Package pdftex.def Info: Fig_5.jpg  used on input line 314.
 (pdftex.def)             Requested size: 369.88582pt x 229.23961pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 289--290
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 314--315
  [] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.298 
-       [16]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.298 
-       [17 <./Fig_5.jpg>]
-<Fig_6.jpg, id=342, 526.3665pt x 342.92114pt>
-File: Fig_6.jpg Graphic file (type jpg)
-<use Fig_6.jpg>
-Package pdftex.def Info: Fig_6.jpg  used on input line 307.
-(pdftex.def)             Requested size: 369.88582pt x 240.98502pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 307--308
- [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.317 
-       [18 <./Fig_6.jpg>]
-<Fig_7.jpg, id=347, 443.4969pt x 386.8854pt>
+<Fig_7.jpg, id=342, 443.4969pt x 386.8854pt>
 File: Fig_7.jpg Graphic file (type jpg)
 <use Fig_7.jpg>
-Package pdftex.def Info: Fig_7.jpg  used on input line 324.
+Package pdftex.def Info: Fig_7.jpg  used on input line 330.
 (pdftex.def)             Requested size: 369.88582pt x 322.6851pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 324--325
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 330--331
  [] 
  []
 
@@ -1034,35 +1029,51 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 
-       [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
+l.341 
+       [18]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 
+l.341 
+       [19 <./Fig_5.jpg>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 
        [20 <./Fig_7.jpg>]
 <Fig_75.jpg, id=359, 362.3136pt x 609.477pt>
 File: Fig_75.jpg Graphic file (type jpg)
 <use Fig_75.jpg>
-Package pdftex.def Info: Fig_75.jpg  used on input line 342.
+Package pdftex.def Info: Fig_75.jpg  used on input line 348.
 (pdftex.def)             Requested size: 256.0748pt x 430.76013pt.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 345.
+LaTeX Warning: Command \textendash invalid in math mode on input line 351.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 345.
+LaTeX Warning: Command \textendash invalid in math mode on input line 351.
 
 
-LaTeX Warning: Float too large for page by 88.01013pt on input line 346.
+LaTeX Warning: Float too large for page by 88.01013pt on input line 352.
 
-<Fig_8.jpg, id=362, 378.9357pt x 350.5095pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.359 
+       [21]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.359 
+       [22 <./Fig_75.jpg>]
+<Fig_8.jpg, id=374, 378.9357pt x 350.5095pt>
 File: Fig_8.jpg Graphic file (type jpg)
 <use Fig_8.jpg>
-Package pdftex.def Info: Fig_8.jpg  used on input line 359.
+Package pdftex.def Info: Fig_8.jpg  used on input line 365.
 (pdftex.def)             Requested size: 369.88582pt x 342.15988pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 359--361
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 365--367
  [] 
  []
 
@@ -1070,155 +1081,142 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.369 
-       [21]pdfTeX warning (ext4): destination with the same identifier (name{pa
+l.375 
+       [23]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.369 
-       [22 <./Fig_75.jpg>]pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.369 
-       [23 <./Fig_8.jpg>]
-<Fig_9.jpg, id=380, 514.3215pt x 515.7669pt>
+l.375 
+       [24 <./Fig_8.jpg>]
+<Fig_9.jpg, id=384, 514.3215pt x 515.7669pt>
 File: Fig_9.jpg Graphic file (type jpg)
 <use Fig_9.jpg>
-Package pdftex.def Info: Fig_9.jpg  used on input line 375.
+Package pdftex.def Info: Fig_9.jpg  used on input line 381.
 (pdftex.def)             Requested size: 312.9803pt x 313.86185pt.
 
 
-LaTeX Warning: Float too large for page by 99.36185pt on input line 378.
+LaTeX Warning: Float too large for page by 99.36185pt on input line 384.
+
+<Fig_10.jpg, id=386, 516.4896pt x 743.1765pt>
+File: Fig_10.jpg Graphic file (type jpg)
+<use Fig_10.jpg>
+Package pdftex.def Info: Fig_10.jpg  used on input line 396.
+(pdftex.def)             Requested size: 341.43306pt x 491.30315pt.
+
+LaTeX Warning: Float too large for page by 91.1087pt on input line 399.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384 
-       [24]pdfTeX warning (ext4): destination with the same identifier (name{pa
+l.406 
+       [25]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384 
-       [25 <./Fig_9.jpg>]
-<Fig_10.jpg, id=389, 516.4896pt x 743.1765pt>
-File: Fig_10.jpg Graphic file (type jpg)
-<use Fig_10.jpg>
-Package pdftex.def Info: Fig_10.jpg  used on input line 390.
-(pdftex.def)             Requested size: 341.43306pt x 491.30315pt.
-
-
-LaTeX Warning: Float too large for page by 91.1087pt on input line 393.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+l.406 
+       [26 <./Fig_9.jpg>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 ... neurotrophin treatment in the inner ear}
-                                                   [26]pdfTeX warning (ext4): d
+l.406 
+       [27 <./Fig_10.jpg>]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.427 ...n{Microfluidic device-generated gradient}
+                                                   [28]pdfTeX warning (ext4): d
 estination with the same identifier (name{page.}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.418 ... neurotrophin treatment in the inner ear}
-                                                   [27 <./Fig_10.jpg>]pdfTeX wa
-rning (ext4): destination with the same identifier (name{page.}) has been alrea
-dy used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.423 
-       [28]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.428 
+l.432 
        [29]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.433 
+l.436 
        [30]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 434.
+(hyperref)                removing `\mathsurround' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 434.
+(hyperref)                removing `\z@' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 434.
+(hyperref)                removing `superscript' on input line 440.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437 ...ion{A concept design: Neurotrophic strip}
-                                                   [31]pdfTeX warning (ext4): d
+l.442 
+       [31]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.446 ...tions of this study and future direction}
+                                                   [32]pdfTeX warning (ext4): d
 estination with the same identifier (name{page.}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.444 
-       [32]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.448 
+l.454 
        [33]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.460 
+l.466 
        [34] (./Final_Manuscript.bblpdfTeX warning (ext4): destination with the 
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 
+l.13 
       [35]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86 
+l.60 
       [36]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.135 
+l.112 
        [37]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 
+l.160 
        [38]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.240 
+l.212 
        [39]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.303 
+l.274 
        [40]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.342 
-       [41]
+l.322 
+       [41]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.372 
+       [42]
 Underfull \hbox (badness 1292) in paragraph at lines 391--397
 \OT1/cmr/m/n/10 sur-vival and elec-tro-phys-i-o-log-i-cal re-spon-sive-ness in 
 neomycin-deafened
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.397 
-       [42]
+
 Underfull \hbox (badness 1019) in paragraph at lines 420--425
 []\OT1/cmr/m/n/10 J. F. Po-duslo, G. L. Cur-ran, Per-me-abil-ity at the blood-b
 rain and
@@ -1228,8 +1226,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.448 
-       [43])
+l.425 
+       [43]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.475 
+       [44])
 \Changes@OutFile=\write6
 \openout6 = `Final_Manuscript.soc'.
 
@@ -1240,25 +1243,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.469 \end{document}
-                     [44] (./Final_Manuscript.aux)
-
-Package rerunfilecheck Warning: File `Final_Manuscript.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Final_Manuscript.out':
-(rerunfilecheck)             Before: 72331328F379F353AB9E5BA4BA42C3B7;5469
-(rerunfilecheck)             After:  D1B06B8067E07737839F740DA61EE3F2;5469.
+l.475 \end{document}
+                     [45] (./Final_Manuscript.aux)
+Package rerunfilecheck Info: File `Final_Manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: D5875EF5D0F5ACCF2E0061C933001D4E;5484.
  ) 
 Here is how much of TeX's memory you used:
- 21834 strings out of 478994
- 396052 string characters out of 5858184
- 692095 words of memory out of 5000000
+ 21835 strings out of 478994
+ 396064 string characters out of 5858184
+ 690522 words of memory out of 5000000
  38770 multiletter control sequences out of 15000+600000
  412030 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,9n,116p,2754b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,9n,116p,2690b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1286,10 +1283,10 @@ ts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 onts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sfti0700.pfb>
-Output written on Final_Manuscript.pdf (47 pages, 23268414 bytes).
+Output written on Final_Manuscript.pdf (48 pages, 23268756 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 736 PDF objects out of 1000 (max. 8388607)
+ 621 compressed objects within 7 object streams
+ 120 named destinations out of 1000 (max. 500000)
  337 words of extra memory for PDF output out of 10000 (max. 10000000)
 

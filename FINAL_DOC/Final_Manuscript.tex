@@ -212,15 +212,15 @@ When appropriate, and as indicated in each figure, statistical analysis was perf
 	\caption{Chemical kinetics of Brain Derived Neurotrophic Factor (BDNF). (A): Concentration of rhBDNF in solution over 72 hours after initial application. (B): $\frac{1}{[BDNF]}$ data fit to first order curve. Please see other curve fit data in Supplemental Figure 1. Red line: fitted line, blue dots: individual data point. $k2$ is defined as slope of fitted curve.} 
 \end{figure}
 
-\indent The appropriate number of PODS\textsuperscript{\textregistered}-rhBDNF crystals to induce an effective neurotrophin gradient for otic neuronal differentiation and directed neurite outgrowth was calculated using a three-dimensional FEA that predicts the concentration profile of BDNF formed through the gradual release and diffusion of BDNF from PODS\textsuperscript{\textregistered}-rhBDNF. First, we quantified the chemical kinetics of this phenomenon with ELISA testing (Figure 4) to establish the parameters for the FEA. Here, two consecutive chemical reactions occur: 1) the breakdown of PODS\textsuperscript{\textregistered} crystals into polyhedrin protein and rhBDNF, and 2) the degradation of rhBDNF toward the degradation product (Equation (1)). Equation (1) omits the reaction product polyhedrin due to its irrelevance in the next reaction.
+\indent The appropriate number of PODS\textsuperscript{\textregistered}-rhBDNF crystals to induce an effective neurotrophin gradient for otic neuronal differentiation and directed neurite outgrowth was calculated using a three-dimensional FEA that predicts the concentration profile of BDNF formed through the gradual release and diffusion of BDNF from PODS\textsuperscript{\textregistered}-rhBDNF. First, we quantified the chemical kinetics of this phenomenon with ELISA testing (Figure 4) to establish the parameters for the FEA. Here, two consecutive chemical reactions occur: 1) the breakdown of PODS\textsuperscript{\textregistered} crystals into polyhedrin protein and rhBDNF, and 2) the degradation of rhBDNF toward the degradation product (Equation (1)).
 %%%%%%%%%%%%%%%
 % Equation 1
 %%%%%%%%%%%%%%%
 \begin{equation}
-	PODS\overset{k1}{\longrightarrow}BDNF\overset{k2}{\longrightarrow}DP
+	PODS\overset{k1}{\longrightarrow}BDNF + PHP\overset{k2}{\longrightarrow}DP + PHP
 \end{equation}
 %%%%%%%%%%%%%%%
-where $DP$ is the degradation product of the released rhBDNF, and $k\textsubscript{1}$ and $k\textsubscript{2}$ are the rate constants ($\frac{1}{hour}$) for their respective reactions.
+where $DP$ is the degradation product of the released rhBDNF, PHP is the polyhedrin protein, and $k\textsubscript{1}$ and $k\textsubscript{2}$ are the rate constants ($\frac{1}{hour}$) for their respective reactions.
 
 
 Degradation kinetics data for rhBDNF was collected while monitoring rhBDNF concentration after introducing a predefined amount into a single well of solution. The data obtained throughout the first 72 hours indicate an exponential decay, suggesting first order kinetics (Figure 4). To confirm this notion, we performed a linear and nonlinear least square analysis of the kinetic data with the MATLAB Curve Fitting Toolbox. We found that the corresponding $R^{2}$ was 0.93169 for the first order curve-fit, confirming that the degradation kinetics was indeed first order. The rate constant for a first order reaction is defined to be slope of the time plot of the logarithmic ratio between concentration and initial concentration The value for $k\textsubscript{2}$ ( 0.0679 ($\frac{1}{hour}$) ) is the slope of the logarithm of the ratio between concentration and initial concentration (See further detail in Supplementary Figure S7). Furthermore, data for the complete chemical reaction were collected by similarly monitoring rhBDNF concentration over time after placing a predefined amount of PODS\textsuperscript{\textregistered}-rhBDNF into a single well of solution. The data collected appeared to fit the curve for Equation 2, which describes the concentration of the intermediate product of two consecutive first order reactions:  
@@ -236,19 +236,39 @@ where $C_{rhBDNF}$ is the concentration of rhBDNF and $C_{PODS}$ is the concentr
 
  We successfully fit the data to this equation's respective curve and empirically approximated $k_{1}$ to be 0.00686 ($\frac{1}{hour}$) after plugging in our value for $k_{2}$ (See further detail in Supplementary Figure S7).  
  
+ %%%%%%%%%%%%%%%%%%%%%%%%%
+ % Figure 5
+ %%%%%%%%%%%%%%%%%%%%%%%%%
+ % Figure 5 (The Western/SDS-PAGE Figure)
+ \begin{figure}
+ 	\begin{center}
+ 		\includegraphics[width=13cm]{Fig_6.jpg}
+ 	\end{center}
+ 	\caption{(A): SDS-PAGE analysis of PODS\textsuperscript{\textregistered}-rhBDNF. Samples containing six quantities of PODS\textsuperscript{\textregistered}-rhBDNF crystals were run on precast 4-15\% polyacrylamide mini-gels and stained with Coomassie G-250 solution for visualization. Protein bands appear at approximately 18.8 (a), 28.0 (b), and 46.8 kDa (c). Lane 1: molecular weight marker. Lanes 2-7: samples containing   }
+ \end{figure}
  
  
- Using these calculated rate constants, the resulting chemical gradient over time after PODS\textsuperscript{\textregistered}-rhBDNF placement can be solved for any geometry by applying Fick’s second Law of diffusion (Equation 3) and the appropriate boundary (Equations 4 and 5) and initial conditions (Equation 6): 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %Figure 5 result explanation%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ SDS-PAGE was used to separate PODS\textsuperscript{\textregistered}-rhBDNF crystals into its constituent proteins to determine the molar ratio of polyhedrin to rhBDNF. Visualization with Coomassie G-250 solution (Figure 6A) revealed three distinct protein bands at 18.8 (a), 28.0 (b), and 46.8 (c) kDa, which correspond with the molecular weights of H1-tagged BDNF monomer, polyhedrin, and H1-tagged BDNF monomer attached with polyhedrin, respectively. Western blot analysis was subsequently conducted to confirm the identity of the 18.8 kDa band as rhBDNF. Enhanced chemiluminescence (Figure 6B) revealed four protein bands at 14.0 (a), 18.8 (b), 37.6 (c), and 46.8 (d) kDa, which correspond with the molecular weights of rhBDNF monomer, H1-tagged BDNF monomer, H1-tagged BDNF dimer, and H1-tagged BDNF monomer attached with polyhedrin. Immunoblot detection of the 18.8 kDa band further implicates its identity as rhBDNF. SDS-PAGE images were converted to 8-bit grayscale and mean corrected integrated pixel intensity values were calculated for protein bands located at 28.0 and 18.8 kDa; the protein band detected at 46.8 kDa was omitted from the final computation based on the fact that it contained a 1:1 ratio of polyhedrin to BDNF. Results indicate that the molecular ratio of polyhedrin to rhBDNF is approximately 22:1. This transforms Equation (1) into:
+ 
+ 
+ 
+ %%%%%%%%%%%%%%%
+ % Equation 3
+ %%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%
+ \begin{equation}
+ 	PODS\overset{k1}{\longrightarrow}BDNF + 22PHP\overset{k2}{\longrightarrow}DP + 22PHP
+ \end{equation}
+ %%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 28) k1 and k 2 unit 1/s? line 308 ??
-% kevin plese make sure that these units I obtained from you are correct. The original unit was $s-1$!!!
-%$k_{2}$ (6.34x10-6 $s-1$)
-%$k_{1}$ (4.854x10-6s-1) 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ Using these calculated rate constants with the calculated molar ratio, the resulting chemical gradient over time after PODS\textsuperscript{\textregistered}-rhBDNF placement can be solved for any geometry by applying Fick’s second Law of diffusion (Equation 4) and the appropriate boundary (Equations 5 and 6) and initial conditions (Equation 7): 
 
 %%%%%%%%%%%%%%%
-% Equation 3
+% Equation 4
 %%%%%%%%%%%%%%%
 \begin{equation}
 \renewcommand{\vec}[1]{\boldsymbol{#1}}
@@ -257,9 +277,10 @@ where $C_{rhBDNF}$ is the concentration of rhBDNF and $C_{PODS}$ is the concentr
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%
-% Equation 4 and 5
+% Equation 5 and 6
 %%%%%%%%%%%%%%%%%%%
-Boundary conditions:
+Boundary Conditions:
+
 \begin{equation}
 \delta C \Big{|}_{walls}= 0\quad 
 \end{equation}
@@ -272,9 +293,9 @@ and
 \quad\delta C\Big{|}_{PODS}
 =k_1 \cdot PODS_0 \cdot e^{-k_1 \cdot t}
 \end{equation}
-\\
+
 %%%%%%%%%%%%%%%%%%%
-% Equation 6
+% Equation 7
 %%%%%%%%%%%%%%%%%%%
 Initial conditions: 
 \begin{equation}
@@ -283,41 +304,22 @@ C\Big{|}_{t=0} = 0
 %%%%%%%%%%%%%%%%%%%%%
 where $C$ is the concentration of rhBDNF, $D$ is diffusivity of rhBDNF (6.76 $\frac{mm\textsuperscript{2}}{day} $ \cite{Stroh2004}), $-k\textsubscript{2}\cdot C$ is the sink term corresponding to the degradation and cell-utilization of the rhBDNF, and $PODS_{0}$ is the initial concentration of the cargo protein (i.e., BDNF) within the PODS\textsuperscript{\textregistered} crystals. The first boundary condition (Equation 4) shows that the concentrations of rhBDNF at the walls of the microfludic device are fixed at 0. The second boundary condition (Equation 5) represents the exponential nature of the decay of PODS\textsuperscript{\textregistered}. Note that both are Neumann boundary conditions. 
 
-\indent We first empirically tested two available microchannel lengths\textemdash (i.e., Xona\textsuperscript{\texttrademark}-XC150 [150 $\mu$m] and Xona\textsuperscript{\texttrademark}-XC450 [450 $\mu$m]). This was done initially because mass (i.e., BDNF) transport from the neurotrophin compartment through the micro-groove channels into the somal compartment is an important factor in generating the concentration gradient \textit{via} diffusion mixing.  We determined that the Xona\textsuperscript{\texttrademark} Microfluidics XC450 was more appropriate for this study as the XC-150's micro-groove channels were not long enough to generate the appropriate concentration gradient throughout the somal compartment. This feature is relevant to human inner ear because the micro-groove channels in the Xona device simulates the presence of the osseous spiral lamina and modiolus between the scala tympani and SGNs  \cite{Tuncel2005,Kucuk1991a}. Following device selection, we generated a three-dimensional geometry mesh of the Xona\textsuperscript{\texttrademark} Microfluidics XC450 for the FEA (Figure 3B(d)). Please also see Supplementary Figure S6 for detailed measurements of the mesh. 
+\indent We empirically tested two available microchannel lengths\textemdash (i.e., Xona\textsuperscript{\texttrademark}-XC150 [150 $\mu$m] and Xona\textsuperscript{\texttrademark}-XC450 [450 $\mu$m]). This was done first because mass (i.e., BDNF) transport from the neurotrophin compartment through the micro-groove channels into the somal compartment is an important factor in generating the concentration gradient \textit{via} diffusion mixing.  We determined that the Xona\textsuperscript{\texttrademark} Microfluidics XC450 was more appropriate for this study as the XC-150's micro-groove channels were not long enough to generate the appropriate concentration gradient throughout the somal compartment. This feature is relevant to human inner ear because the micro-groove channels in the Xona device simulates the presence of the osseous spiral lamina and modiolus between the scala tympani and SGNs  \cite{Tuncel2005,Kucuk1991a}. Following device selection, we generated a three-dimensional geometry mesh of the XC450 for the FEA (Figure 3B(d)). Please see Supplementary Figure S6 for detailed measurements of the mesh. 
 
 %%%%%%%%%%%
-% Figure 5
+% Figure 6
 %%%%%%%%%%%%
 \begin{figure}
 \begin{center}
 	\includegraphics[width=13cm]{Fig_5.jpg}
 \end{center}
-\caption{(A): 3D mesh geometry of a Xona\textsuperscript{\texttrademark} XC450 created with Autodesk Inventor. An ellipse-shaped PODS\textsuperscript{\textregistered}-rhBDNF disc is shown in yellow. (B): rhBDNF concentration gradient for 20,000 PODS\textsuperscript{\textregistered}-rhBDNF from D1\textendash D7. Note that the model does not account for media changes during the culture period. The corresponding color map shown has a range from 0 ng/mL to 49 pg/mL. (C): Diffusion flux ($mol/m^{2}s$) was computed using COMSOL Chemical Engineering module on D1, D3, D5, and D7.}
+\caption{(A): 3D mesh geometry of a Xona\textsuperscript{\texttrademark} XC450 created with Autodesk Inventor. A PODS\textsuperscript{\textregistered}-rhBDNF ellipsoid disc is shown in yellow. (B): rhBDNF concentration gradient for 20,000 PODS\textsuperscript{\textregistered}-rhBDNF from D1\textendash D7. Note that the model does not account for media changes during the culture period. The corresponding color map shown has a range from 0 ng/mL to 49 pg/mL. (C): Diffusion flux ($mol/m^{2}s$) was computed using COMSOL Chemical Engineering module on D1, D3, D5, and D7.}
 \end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Figure 5 result explanation%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-As mentioned, we used the first-order fitted data from our ELISA experiment and then determined the values of the $k_{1,2}$ coefficients, which were then applied to the diffusion equation. The finite element model was then computed for different PODS\textsuperscript{\textregistered}-rhBDNF concentrations and time intervals to optimize the rhBDNF concentration gradient for hPSC-derived ONP differentiation into SGNs as well as directed neurite extension. Figure 5 shows FEM-computed rhBDNF concentration gradients for 20,000 PODS\textsuperscript{\textregistered}-rhBDNF from Day 1\textendash 7. Note that the rhBDNF concentrations were greater on D2\textendash 5 to promote neuronal differentiation and neurite outgrowth observed on D7 (Figure 5B). Computed diffusion flux was uniform throughout D1\textendash 7 (Figure 5C). Also note that highest concentration of rhBDNF released from PODS\textsuperscript{\textregistered}-crystals was greater than 50 pg/mL, the concentration sufficient for otic neuronal differentiation and neurite outgrowth of hPSC-derived ONP 3D spheroids from our previously published data \cite{Chang2020}. Optimization of the adequate number of PODS\textsuperscript{\textregistered}-rhBDNF was performed empirically; we also performed FEA with 10,000 and 40,000 PODS\textsuperscript{\textregistered}-rhBDNF. Please see detailed discussion for the empirical optimization in Supplementary Figure S8. 
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%
-% Figure 6
-%%%%%%%%%%%%%%%%%%%%%%%%%
-% Figure 6 (The Western/SDS-PAGE Figure)
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=13cm]{Fig_6.jpg}
-	\end{center}
-	\caption{(A): SDS-PAGE analysis of PODS\textsuperscript{\textregistered}-rhBDNF. Samples containing six quantities of PODS\textsuperscript{\textregistered}-rhBDNF crystals were run on precast 4-15\% polyacrylamide mini-gels and stained with Coomassie G-250 solution for visualization. Protein bands appear at approximately 18.8 (a), 28.0 (b), and 46.8 kDa (c). Lane 1: molecular weight marker. Lanes 2-7: samples containing   }
-\end{figure}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Figure 6 result explanation%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-SDS-PAGE was used to separate PODS\textsuperscript{\textregistered}-rhBDNF crystals into its constituent proteins to determine the molar ratio of polyhedrin to rhBDNF. Visualization with Coomassie G-250 solution (Figure 6A) revealed three distinct protein bands at 18.8 (a), 28.0 (b), and 46.8 (c) kDa, which correspond with the molecular weights of H1-tagged BDNF monomer, polyhedrin, and H1-tagged BDNF monomer attached with polyhedrin, respectively. Western blot analysis was subsequently conducted to confirm the identity of the 18.8 kDa band as rhBDNF. Enhanced chemiluminescence (Figure 6B) revealed four protein bands at 14.0 (a), 18.8 (b), 37.6 (c), and 46.8 (d) kDa, which correspond with the molecular weights of rhBDNF monomer, H1-tagged BDNF monomer, H1-tagged BDNF dimer, and H1-tagged BDNF monomer attached with polyhedrin. Immunoblot detection of the 18.8 kDa band further implicates its identity as rhBDNF. SDS-PAGE images were converted to 8-bit grayscale and mean corrected integrated pixel intensity values were calculated for protein bands located at 28.0 and 18.8 kDa; the protein band detected at 46.8 kDa was omitted from the final computation based on the notion that it contained a 1:1 ratio of polyhedrin to BDNF. Results indicate that the molecular ratio of polyhedrin to rhBDNF is approximately 17:1.
+The finite element model was then computed for different PODS\textsuperscript{\textregistered}-rhBDNF concentrations and time intervals to empirically optimize the rhBDNF concentration gradient for hPSC-derived ONP differentiation into SGNs as well as directed neurite extension. Figure 6 shows FEM-computed rhBDNF concentration gradients for 20,000 PODS\textsuperscript{\textregistered}-rhBDNF from Day 1\textendash 7. Note that the rhBDNF concentrations were greater on D2\textendash 5 to promote neuronal differentiation and neurite outgrowth observed on D7 (Figure 6B). Computed diffusion flux was uniform throughout D1\textendash 7 (Figure 6C). Also note that highest concentration of rhBDNF released from PODS\textsuperscript{\textregistered}-crystals was greater than 50 pg/mL, the concentration sufficient for otic neuronal differentiation and neurite outgrowth of hPSC-derived ONP 3D spheroids determined in our previously published data \cite{Chang2020}. Optimization of the adequate number of PODS\textsuperscript{\textregistered}-rhBDNF was performed empirically; we also performed FEA with 10,000 and 40,000 PODS\textsuperscript{\textregistered}-rhBDNF. Please see detailed discussion for the empirical optimization in Supplementary Figure S8. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -327,15 +329,15 @@ SDS-PAGE was used to separate PODS\textsuperscript{\textregistered}-rhBDNF cryst
 	\begin{center}
 		\includegraphics[width=13cm]{Fig_7.jpg}
 	\end{center}
-	\caption{Human PSC-derived late-stage ONPs grown in a microfluidic device at Day 7 were stained for GATA3 (red) and PAX8 (green). (A): Geometry mesh of the microfluidic device Xona\textsuperscript{\texttrademark} XC450 generated by Autodesk Inventor. The green square indicates the cell seeding location in the somal compartment of the device. An ellipse-shaped PODS\textsuperscript{\textregistered}-rhBDNF disc is shown in yellow. (B): Cells were analyzed by staining with neuronal markers GATA3 (red) and PAX8 (green). Yellow highlighted regions are magnified on the left. SC: somal compartment. (C): Heat-map representation of double-positivity of hPSC-derived ONPs in the device for GATA3 and PAX8 (n = 3). Double-positivity increases from the lower to the upper portion of the somal compartment, suggesting that the higher BDNF concentration in the upper portion of the device improves differentiation. Scale bar: 100 $\mu$m. (D): Prediction of BDNF concentration gradient released from PODS\textsuperscript{\textregistered}-rhBDNF at seven days in culture using a finite element model.  The corresponding color map is shown with a range from 0\textendash49 pg/mL.
+	\caption{Human PSC-derived late-stage ONPs grown in a microfluidic device at Day 7 were stained for GATA3 (red) and PAX8 (green). (A): Geometry mesh of the microfluidic device Xona\textsuperscript{\texttrademark} XC450 generated by Autodesk Inventor. The green square indicates the cell seeding location in the somal compartment of the device. An ellipsoid PODS\textsuperscript{\textregistered}-rhBDNF disc is shown in yellow. (B): Cells were analyzed by staining with neuronal markers GATA3 (red) and PAX8 (green). Yellow highlighted regions are magnified on the left. SC: somal compartment. (C): Heat-map representation of double-positivity of hPSC-derived ONPs in the device for GATA3 and PAX8 (n = 3). Double-positivity increases from the lower to the upper portion of the somal compartment, suggesting that the higher BDNF concentration in the upper portion of the device improves differentiation. Scale bar: 100 $\mu$m. (D): Prediction of BDNF concentration gradient released from PODS\textsuperscript{\textregistered}-rhBDNF at seven days in culture using the finite element model.  The corresponding color map is shown with a range from 0\textendash49 pg/mL.
 	}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Figure 7 RESULT (Thank you Rachel!!)%
+% Figure 7 RESULT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-To objectively compare the degree of otic neuronal differentiation in hPSC-derived ONPs, we performed quantitative analysis of PAX8 and GATA3 double-positive cells using immunocytochemistry. We chose PAX8 and GATA3 for this analysis because our previous studies indicated high expression of these protein markers in late-stage ONPs and early-stage SGNs \cite{Heuer2021,Chang2020, Matsuoka2017}. Cells were stained in the somal compartment of the Xona\textsuperscript{\texttrademark} device, highlighted in green in Figure 7A. Figure 7B shows the resulting image of cells in the somal compartment, and a heat-map representation of the percentage of double-positive cells is shown in Figure 7C.
-It should be noted here that the heatmap is sensitive to the differences in cell density across channel. This was accounted by averaging the double-positivity across three biological replicates. The heat-map indicates higher double-positivity in the upper region of the somal compartment, which is closest to the PODS\textsuperscript{\textregistered}-rhBDNF disc placement (shown in a orange ellipse in Figure 7A) in the neurotrophin compartment. Double-positivity decreases in the somal compartment as distance from the PODS\textsuperscript{\textregistered}-rhBDNF disk increases, supporting the presence of a BDNF neurotrophin gradient as predicted by our computational model calculation (Figure 7D).
+To objectively compare the degree of otic neuronal differentiation in the hPSC-derived ONPs, we performed quantitative analysis of PAX8 and GATA3 double-positive cells using immunocytochemistry. We chose PAX8 and GATA3 for this analysis because our previous studies indicated high expression of these protein markers in late-stage ONPs and early-stage SGNs \cite{Heuer2021,Chang2020, Matsuoka2017}. Cells were stained in the somal compartment of the Xona\textsuperscript{\texttrademark} device, highlighted in green in Figure 7A. Figure 7B shows the resulting image of cells in the somal compartment, and a heat-map representation of the percentage of double-positive cells is shown in Figure 7C.
+It should be noted here that the heat-map is sensitive to the differences in cell density across channel. This was accounted by averaging the double-positivity across three biological replicates. The heat-map indicates higher double-positivity in the upper region of the somal compartment, which is closest to the PODS\textsuperscript{\textregistered}-rhBDNF disk placement (shown as an orange ellipse in Figure 7A) in the neurotrophin compartment. Double-positivity decreases in the somal compartment as distance from the PODS\textsuperscript{\textregistered}-rhBDNF disk increases, supporting the presence of a BDNF neurotrophin gradient as predicted by our computational model calculation (Figure 7D).
 
 %\subsection{The Euclidean distance angle and Diffusion flux angle}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -346,7 +348,7 @@ It should be noted here that the heatmap is sensitive to the differences in cell
 		\includegraphics[width=9cm]{Fig_75.jpg}
 		% for some LATEX reason, eps was not taken. Used jpeg. 
 	\end{center}
-	\caption{(A): Defining the Euclidean distance angle (EDA). (a) X-Y plane geometry mesh of a Xona\textsuperscript{\texttrademark} XC450 device. Green square shows an area corresponding to a phase-contrast image below. An ellipse-shaped PODS\textsuperscript{\textregistered}-rhBDNF disc is shown in yellow. (b) hPSC-derived ONPs were cultured in a Xona\textsuperscript{\texttrademark} XC450 for seven days (D7). Yellow ellipse once again indicates the location of a disk contains PODS\textsuperscript{\textregistered}-rhBDNF crystals (P: the center of this ellipse). In the somal compartment of the Xona\textsuperscript{\texttrademark} XC450 device, we defined Zone 1\textendash 5, shown in black square. A line was drawn from the center of the PODS\textsuperscript{\textregistered}-rhBDNF disk (P) to ($Q_{1-5}$) (i.e., the near side to microgroove channels) of a pre-designated square (shown as a black square, zone 1\textendash 5) [i.e.,zone 1\textendash 5]). The Euclidean distance angle (EDA) for zone 1\textendash5 was defined as $\phi_{i}$, $i = 1\textendash 5$. (B): Defining diffusion flux angle (DFA). (a) Diffusion flux in a Xona\textsuperscript{\texttrademark} XC450.Green squared area show a somal and neurotrophin compartment, which are magnified in (b). (b) Magnified image of diffusion flux of Zone 1\textendash 5 in a Xona\textsuperscript{\texttrademark} XC450. Orange highlighted zone (zone 4) was magnified at the bottom of (b), defining a DFA ($\psi$).}
+	\caption{(A): Defining the Euclidean distance angle (EDA). (a) X-Y plane geometry mesh of a Xona\textsuperscript{\texttrademark} XC450 device. Green square shows an area corresponding to a phase-contrast image below. An ellipsoid PODS\textsuperscript{\textregistered}-rhBDNF disk is shown in yellow. (b) hPSC-derived ONPs were cultured in a Xona\textsuperscript{\texttrademark} XC450 for seven days (D7). Yellow ellipse once again indicates the location of a disk containing PODS\textsuperscript{\textregistered}-rhBDNF crystals (P: the center of this ellipse). In the somal compartment of the Xona\textsuperscript{\texttrademark} XC450 device, we defined Zone 1\textendash 5, shown in black squares. A line was drawn from the center of the PODS\textsuperscript{\textregistered}-rhBDNF disk (P) to ($Q_{1-5}$) (i.e., the near side to microgroove channels) of a pre-designated square (shown as a black square, zone 1\textendash 5) [i.e.,zone 1\textendash 5]). The Euclidean distance angle (EDA) for zone 1\textendash5 was defined as $\phi_{i}$, $i = 1\textendash 5$. (B): Defining diffusion flux angle (DFA). (a) Diffusion flux in a Xona\textsuperscript{\texttrademark} XC450.Green squared area show a somal and neurotrophin compartment, which are magnified in (b). (b) Magnified image of diffusion flux of Zone 1\textendash 5 in a Xona\textsuperscript{\texttrademark} XC450. Orange highlighted zone (zone 4) was magnified at the bottom of (b), defining a DFA ($\psi$).}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
