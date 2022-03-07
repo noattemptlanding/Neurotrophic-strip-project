@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  6 MAR 2022 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  6 MAR 2022 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,9 +1129,10 @@ l.413
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 
-       [29]pdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.}) has been already used, duplicate ignored
+l.417 ...ction {Brain-derived neurotrophic factor}
+                                                   [29]pdfTeX warning (ext4): d
+estination with the same identifier (name{page.}) has been already used, duplic
+ate ignored
 <to be read again> 
                    \relax 
 l.423 
@@ -1162,14 +1163,14 @@ l.432
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.439 
+l.437 
        [33]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.448 \section* {Conclusions}
-                              [34]pdfTeX warning (ext4): destination with the s
-ame identifier (name{page.}) has been already used, duplicate ignored
+l.443 
+       [34]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.453 
@@ -1177,7 +1178,7 @@ l.453
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 
+l.44 
       [36]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1187,17 +1188,17 @@ l.98
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 
+l.143 
        [38]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 
+l.190 
        [39]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.252 
+l.248 
        [40]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
@@ -1207,7 +1208,7 @@ l.303
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.356 
+l.349 
        [42]
 Underfull \hbox (badness 1292) in paragraph at lines 391--397
 \OT1/cmr/m/n/10 sur-vival and elec-tro-phys-i-o-log-i-cal re-spon-sive-ness in 
@@ -1243,14 +1244,8 @@ een already used, duplicate ignored
                    \relax 
 l.462 \end{document}
                      [45] (./Final_Manuscript.aux)
-
-Package rerunfilecheck Warning: File `Final_Manuscript.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Final_Manuscript.out':
-(rerunfilecheck)             Before: D5875EF5D0F5ACCF2E0061C933001D4E;5484
-(rerunfilecheck)             After:  97E204A42DEFF2185D0C047B2B1B56CD;5484.
+Package rerunfilecheck Info: File `Final_Manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: 2B3D9C2ED6DA35FD95FAFEE0BD64039C;5577.
  ) 
 Here is how much of TeX's memory you used:
  21835 strings out of 478994
@@ -1287,7 +1282,7 @@ ts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 onts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sfti0700.pfb>
-Output written on Final_Manuscript.pdf (48 pages, 23318878 bytes).
+Output written on Final_Manuscript.pdf (48 pages, 23318732 bytes).
 PDF statistics:
  737 PDF objects out of 1000 (max. 8388607)
  622 compressed objects within 7 object streams
