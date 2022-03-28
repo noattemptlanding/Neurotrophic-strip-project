@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  7 MAR 2022 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.22)  28 MAR 2022 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,7 +884,7 @@ File: Fig_2.jpg Graphic file (type jpg)
 Package pdftex.def Info: Fig_2.jpg  used on input line 151.
 (pdftex.def)             Requested size: 284.52756pt x 397.7754pt.
 
-LaTeX Warning: Float too large for page by 40.7754pt on input line 154.
+LaTeX Warning: Float too large for page by 54.58096pt on input line 154.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -945,7 +945,7 @@ ge.}) has been already used, duplicate ignored
                    \relax 
 l.202 
        [12]
-<Fig_4.jpg, id=298, 241.8636pt x 99.4917pt>
+<Fig_4.jpg, id=302, 241.8636pt x 99.4917pt>
 File: Fig_4.jpg Graphic file (type jpg)
 <use Fig_4.jpg>
 Package pdftex.def Info: Fig_4.jpg  used on input line 216.
@@ -961,9 +961,9 @@ een already used, duplicate ignored
                    \relax 
 l.230 
        [13]
-Overfull \hbox (8.99956pt too wide) in paragraph at lines 232--233
-[]\OT1/cmr/m/n/10 Degradation ki-net-ics data for rhBDNF was col-lected while m
-on-i-tor-ing rhBDNF
+Overfull \hbox (12.86066pt too wide) in paragraph at lines 232--233
+[]\OT1/cmr/m/n/10 Degradation ki-net-ics data for rhBDNF were col-lected while 
+mon-i-tor-ing rhBDNF
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -972,7 +972,7 @@ een already used, duplicate ignored
                    \relax 
 l.233 
        [14 <./Fig_4.jpg>]
-<Fig_5.jpg, id=315, 526.3665pt x 342.92114pt>
+<Fig_5.jpg, id=319, 526.3665pt x 342.92114pt>
 File: Fig_5.jpg Graphic file (type jpg)
 <use Fig_5.jpg>
 Package pdftex.def Info: Fig_5.jpg  used on input line 251.
@@ -991,72 +991,65 @@ l.261
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.301 \end{equation}
+l.300 \end{equation}
                      [16]
-Overfull \hbox (2.97282pt too wide) in paragraph at lines 313--314
-[]\OT1/cmr/m/n/10 We em-pir-i-cally tested two com-mer-cially avail-able mi-cro
-chan-nel lengths|(i.e.,
- []
 
-<Fig_6.jpg, id=334, 580.93034pt x 360.02505pt>
+Package natbib Warning: Citation `Rask-Andersen2012a' on page  undefined on inp
+ut line 312.
+
+<Fig_6.jpg, id=338, 580.93034pt x 360.02505pt>
 File: Fig_6.jpg Graphic file (type jpg)
 <use Fig_6.jpg>
-Package pdftex.def Info: Fig_6.jpg  used on input line 320.
+Package pdftex.def Info: Fig_6.jpg  used on input line 319.
 (pdftex.def)             Requested size: 369.88582pt x 229.23961pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 320--321
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 319--320
  [] 
- []
-
-
-Overfull \hbox (2.10954pt too wide) in paragraph at lines 328--329
-[]\OT1/cmr/m/n/10 The fi-nite el-e-ment anal-y-sis was then com-puted for dif-f
-er-ent PODS$[]$-rhBDNF
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.329 
+l.328 
        [17]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.329 
+l.328 
        [18 <./Fig_6.jpg>]
-<Fig_7.jpg, id=348, 443.4969pt x 386.8854pt>
+<Fig_7.jpg, id=351, 443.4969pt x 386.8854pt>
 File: Fig_7.jpg Graphic file (type jpg)
 <use Fig_7.jpg>
-Package pdftex.def Info: Fig_7.jpg  used on input line 336.
+Package pdftex.def Info: Fig_7.jpg  used on input line 335.
 (pdftex.def)             Requested size: 369.88582pt x 322.6851pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 336--337
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 335--336
  [] 
  []
 
 
-Overfull \hbox (0.36174pt too wide) in paragraph at lines 345--346
+Overfull \hbox (0.36174pt too wide) in paragraph at lines 344--345
 []\OT1/cmr/m/n/10 After the bi-o-log-i-cal ex-per-i-ments, we per-formed quan-t
 i-ta-tive anal-y-sis of PAX8
  []
 
-<Fig_8.jpg, id=352, 362.3136pt x 609.477pt>
+<Fig_8.jpg, id=355, 362.3136pt x 609.477pt>
 File: Fig_8.jpg Graphic file (type jpg)
 <use Fig_8.jpg>
-Package pdftex.def Info: Fig_8.jpg  used on input line 353.
+Package pdftex.def Info: Fig_8.jpg  used on input line 352.
 (pdftex.def)             Requested size: 256.0748pt x 430.76013pt.
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 356.
+LaTeX Warning: Command \textendash invalid in math mode on input line 355.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 356.
+LaTeX Warning: Command \textendash invalid in math mode on input line 355.
 
 
-LaTeX Warning: Float too large for page by 73.76013pt on input line 357.
+LaTeX Warning: Float too large for page by 73.76013pt on input line 356.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 
  []
 
@@ -1064,25 +1057,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.363 
+l.362 
        [19]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.363 
+l.362 
        [20 <./Fig_7.jpg>]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.363 
+l.362 
        [21 <./Fig_8.jpg>]
-<Fig_9.jpg, id=369, 378.9357pt x 350.5095pt>
+<Fig_9.jpg, id=371, 378.9357pt x 350.5095pt>
 File: Fig_9.jpg Graphic file (type jpg)
 <use Fig_9.jpg>
-Package pdftex.def Info: Fig_9.jpg  used on input line 371.
+Package pdftex.def Info: Fig_9.jpg  used on input line 376.
 (pdftex.def)             Requested size: 369.88582pt x 342.15988pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 371--373
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 376--378
  [] 
  []
 
@@ -1090,140 +1083,140 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.381 
+l.386 
        [22]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.381 
+l.386 
        [23 <./Fig_9.jpg>]
-<Fig_10.jpg, id=381, 514.3215pt x 515.7669pt>
+<Fig_10.jpg, id=385, 514.3215pt x 515.7669pt>
 File: Fig_10.jpg Graphic file (type jpg)
 <use Fig_10.jpg>
-Package pdftex.def Info: Fig_10.jpg  used on input line 387.
+Package pdftex.def Info: Fig_10.jpg  used on input line 392.
 (pdftex.def)             Requested size: 312.9803pt x 313.86185pt.
 
 
-LaTeX Warning: Float too large for page by 99.36185pt on input line 390.
+LaTeX Warning: Float too large for page by 99.36185pt on input line 395.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.396 
+l.401 
        [24]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.396 
+l.401 
        [25 <./Fig_10.jpg>]
-<Fig_11.jpg, id=390, 516.4896pt x 743.1765pt>
+<Fig_11.jpg, id=394, 516.4896pt x 743.1765pt>
 File: Fig_11.jpg Graphic file (type jpg)
 <use Fig_11.jpg>
-Package pdftex.def Info: Fig_11.jpg  used on input line 402.
+Package pdftex.def Info: Fig_11.jpg  used on input line 407.
 (pdftex.def)             Requested size: 341.43306pt x 491.30315pt.
 
 
-LaTeX Warning: Float too large for page by 91.1087pt on input line 405.
+LaTeX Warning: Float too large for page by 91.1087pt on input line 410.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 
+l.424 
        [26]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.419 
+l.424 
        [27 <./Fig_11.jpg>]pdfTeX warning (ext4): destination with the same iden
 tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.422 
+l.427 
        [28]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.427 
+l.430 
        [29]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.430 ...tiated by the Tyrosine kinase B receptor}
-                                                   [30]
+l.434 
+       [30]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 433.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 433.
+(hyperref)                removing `\mathsurround' on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 433.
+(hyperref)                removing `\z@' on input line 438.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 438.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435 
+l.440 
        [31]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.441 
+l.443 
        [32]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.447 
+l.450 
        [33]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.455 
+l.457 
        [34] (./Final_Manuscript.bblpdfTeX warning (ext4): destination with the 
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 
+l.13 
       [35]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 
+l.60 
       [36]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 
+l.112 
        [37]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 
+l.160 
        [38]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 
+l.212 
        [39]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 
+l.274 
        [40]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.334 
+l.322 
        [41]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.381 
+l.372 
        [42]
 Underfull \hbox (badness 1292) in paragraph at lines 391--397
 \OT1/cmr/m/n/10 sur-vival and elec-tro-phys-i-o-log-i-cal re-spon-sive-ness in 
@@ -1240,13 +1233,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.432 
+l.425 
        [43]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.487 
+l.475 
        [44])
+
+Package natbib Warning: There were undefined citations.
+
 \Changes@OutFile=\write6
 \openout6 = `Final_Manuscript.soc'.
 
@@ -1257,56 +1253,51 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.464 \end{document}
+l.469 \end{document}
                      [45] (./Final_Manuscript.aux)
-
-Package rerunfilecheck Warning: File `Final_Manuscript.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Final_Manuscript.out':
-(rerunfilecheck)             Before: 5818E7953BDE9596694C1AB5EBDB96E9;5602
-(rerunfilecheck)             After:  642244EFD479939559CE10FBB0A89190;5602.
+Package rerunfilecheck Info: File `Final_Manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: 642244EFD479939559CE10FBB0A89190;5602.
  ) 
 Here is how much of TeX's memory you used:
- 21834 strings out of 478994
- 396046 string characters out of 5858184
- 689434 words of memory out of 5000000
- 38769 multiletter control sequences out of 15000+600000
- 412030 words of font info for 60 fonts, out of 8000000 for 9000
+ 21839 strings out of 478994
+ 396096 string characters out of 5858184
+ 689921 words of memory out of 5000000
+ 38771 multiletter control sequences out of 15000+600000
+ 412649 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,9n,116p,2355b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,9n,116p,2362b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sfti0700.pfb>
-Output written on Final_Manuscript.pdf (48 pages, 23319167 bytes).
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfti0700.pfb>
+Output written on Final_Manuscript.pdf (48 pages, 23327245 bytes).
 PDF statistics:
- 736 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 628 compressed objects within 7 object streams
+ 121 named destinations out of 1000 (max. 500000)
  337 words of extra memory for PDF output out of 10000 (max. 10000000)
 
